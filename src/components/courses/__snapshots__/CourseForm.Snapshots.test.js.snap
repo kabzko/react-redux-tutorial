@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sets submit button label 'Save' when saving is false 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Edit
+     Course
+  </h2>
+  <form
+    onSubmit={[MockFunction]}
+  >
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="title"
+      >
+        Title
+      </label>
+      <input
+        className="form-control"
+        id="title"
+        name="title"
+        onChange={[MockFunction]}
+        type="text"
+        value="Securing React Apps with Auth0"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="authorId"
+      >
+        Author
+      </label>
+      <select
+        className="form-select"
+        id="authorId"
+        name="authorId"
+        onChange={[MockFunction]}
+        value={1}
+      >
+        <option
+          value=""
+        >
+          Select Author
+        </option>
+        <option
+          value={1}
+        >
+          Cory House
+        </option>
+        <option
+          value={2}
+        >
+          Scott Allen
+        </option>
+        <option
+          value={3}
+        >
+          Dan Wahlin
+        </option>
+      </select>
+      <div
+        className="invalid-feedback"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="category"
+      >
+        Category
+      </label>
+      <input
+        className="form-control"
+        id="category"
+        name="category"
+        onChange={[MockFunction]}
+        type="text"
+        value="JavaScript"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      type="submit"
+    >
+      Save
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Sets submit button label 'Savings...' when saving is true 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Edit
+     Course
+  </h2>
+  <form
+    onSubmit={[MockFunction]}
+  >
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="title"
+      >
+        Title
+      </label>
+      <input
+        className="form-control"
+        id="title"
+        name="title"
+        onChange={[MockFunction]}
+        type="text"
+        value="Securing React Apps with Auth0"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="authorId"
+      >
+        Author
+      </label>
+      <select
+        className="form-select"
+        id="authorId"
+        name="authorId"
+        onChange={[MockFunction]}
+        value={1}
+      >
+        <option
+          value=""
+        >
+          Select Author
+        </option>
+        <option
+          value={1}
+        >
+          Cory House
+        </option>
+        <option
+          value={2}
+        >
+          Scott Allen
+        </option>
+        <option
+          value={3}
+        >
+          Dan Wahlin
+        </option>
+      </select>
+      <div
+        className="invalid-feedback"
+      >
+        
+      </div>
+    </div>
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="category"
+      >
+        Category
+      </label>
+      <input
+        className="form-control"
+        id="category"
+        name="category"
+        onChange={[MockFunction]}
+        type="text"
+        value="JavaScript"
+      />
+      <div
+        className="invalid-feedback"
+      >
+        
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="submit"
+    >
+      Saving...
+    </button>
+  </form>
+</div>
+`;
